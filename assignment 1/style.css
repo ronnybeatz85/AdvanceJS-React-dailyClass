@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6e8efb, #9ddfd3);
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #f5f6fa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    flex: 1;
+}
+
+.card.large {
+    flex: 1.5;
+}
+
+.card.full {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #4a4a9e;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #6e8efb, #8e44ad);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.empty {
+    margin-top: 20px;
+    color: gray;
+}
+
+.demo-box {
+    background: #eef1f5;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.shift {
+    margin-top: 10px;
+    color: #4a4a9e;
+}
